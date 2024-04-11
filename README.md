@@ -14,10 +14,12 @@ Steps for creating and making it functional:
 
 ### Step 1
 Open a file in you favorite text editor. Choose the name you like. For this example we'll name it wol.sh:
+    
     nano wol.sh
 
 ### Step 2
 Paste the following code into the script making sure you change both the <IP address> and <IP/MAC address>:
+    
     #!/bin/bash
 
     ping -c 3 <IP address> | grep "+3 errors" && wakeonlan -p 9 <IP/MAC address>
