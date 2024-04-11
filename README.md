@@ -1,9 +1,6 @@
 # WOL bash script
 
 
-
-
-
 ## Description
 This script will wake up any machine by sending a Wake On Lan order to de designated IP or MAC address.
 
@@ -13,6 +10,9 @@ It'll send a ping to the designated IP address every 3 seconds and after 3 error
 Steps for creating and making it functional:
 
 ### Step 1
+Clone the repository or downlad the file called: wol.sh
+
+Or you can do it from scrath:
 Open a file in you favorite text editor. Choose the name you like. For this example we'll name it wol.sh:
     
     nano wol.sh
